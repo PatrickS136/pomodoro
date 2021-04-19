@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pomodoro/constants.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 
 class MainScreen extends StatelessWidget {
   @override
@@ -14,17 +15,30 @@ class MainScreen extends StatelessWidget {
             end: Alignment.bottomCenter,
             colors: [
               darkBlue,
-              lightBlue,
+              darkGreen,
             ],
           ),
         ),
-        child: Container(
-          child: Center(
-            child: Text(
-              "25:00",
-              style: kTimeText,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              child: Center(
+                child: CircularPercentIndicator(
+                  radius: 300.0,
+                  lineWidth: 20.0,
+                  percent: 0.8,
+                  // header: Text("Icon header"),
+                  center: Text(
+                    "25:00",
+                    style: kTimeText,
+                  ),
+                  backgroundColor: grey,
+                  progressColor: lightBlue,
+                ),
+              ),
             ),
-          ),
+          ],
         ),
       ),
     );
