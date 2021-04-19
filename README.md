@@ -2,6 +2,8 @@
 
 A pomodoro timer app using Flutter
 
+Screenshots below ran on the Nexus 6 virtual device, not yet tested on an iOS device
+
 25-minute study sessions followed by 5 minute breaks
 
 Get a ⭐ for each completed study session
