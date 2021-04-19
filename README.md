@@ -1,16 +1,25 @@
 # pomodoro
 
-A new Flutter project.
+A pomodoro timer app using Flutter
 
-## Getting Started
+25-minute study sessions followed by 5 minute breaks
 
-This project is a starting point for a Flutter application.
+Get a ⭐ for each completed study session
 
-A few resources to get you started if this is your first Flutter project:
+Getting the 4th ⭐ will earn you a longer break(20 minutes)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h2>Startup Screen</h2>
+<hr>
+<img src="screenshots/img1.png" alt="1" width="400" />
+<br>
+<h2>Unpaused</h2>
+<hr>
+<img src="screenshots/img2.png" alt="2" width="400" />
+<br>
+<h2>Break</h2>
+<hr>
+<img src="screenshots/img3.png" alt="3" width="400" />
+<br>
+<h2>Long break</h2>
+<hr>
+<img src="screenshots/img4.png" alt="4" width="400" />

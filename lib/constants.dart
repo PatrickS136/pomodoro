@@ -10,3 +10,8 @@ const kTimeText = TextStyle(
   color: grey,
   fontWeight: FontWeight.bold,
 );
+
+const kChecks = TextStyle(
+  fontSize: 20,
+  color: Colors.green,
+);
